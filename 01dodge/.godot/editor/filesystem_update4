@@ -1,1 +1,5 @@
 res://main.tscn
+res://hud.tscn
+res://hud.gd
+res://main.gd
+res://mob.tscn
