@@ -422,4 +422,4 @@ script = ExtResource("1_rvejd")
 position = Vector2(105, 96)
 sprite_frames = SubResource("SpriteFrames_tqbvb")
 animation = &"back_attack"
-frame_progress = 0.404842
+frame_progress = 0.802529
