@@ -1,9 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695435121
+::res://::1695540054
 icon.svg::CompressedTexture2D::3627576920572011025::1695372646::1695372652::1::::<><>::
-::res://art/::1695433184
+::res://art/::1695540054
+animated flowers.png::CompressedTexture2D::1513378428238466272::1695540045::1695540054::1::::<><>::
 player sprites.png::CompressedTexture2D::3957268282280078836::1695433184::1695433184::1::::<><>::
-::res://player/::1695436505
-player.tscn::PackedScene::5747912941941407058::1695435369::0::1::::<><>::uid://bwm6vo2am3xm7::::res://art/player sprites.png
-::res://player/scenes/::1695436505
-world.tscn::PackedScene::1480343479568356023::1695436507::0::1::::<><>::
+TilesetFloor.png::CompressedTexture2D::4009096051001387312::1695536918::1695536918::1::::<><>::
+TilesetNature.png::CompressedTexture2D::2581529661062787163::1695536918::1695536918::1::::<><>::
+::res://player/::1695539045
+player.gd::GDScript::-1::1695536741::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::5747912941941407058::1695539045::0::1::::<><>::uid://bwm6vo2am3xm7::::res://art/player sprites.png<>res://player/player.gd
+::res://scenes/::1695539224
+world.tscn::PackedScene::1480343479568356023::1695539224::0::1::::<><>::uid://cn5lj0bu2by1g::::res://player/player.tscn<>uid://bxebhxrq6cbg7::::res://art/TilesetFloor.png<>uid://bc1rofkjq7n1t::::res://art/TilesetNature.png
