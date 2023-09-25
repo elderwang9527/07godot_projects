@@ -2,3 +2,5 @@ res://player/player.tscn
 res://scenes/world.tscn
 res://player/player.gd
 res://camera/follow cam.gd
+res://enemies/slime.tscn
+res://enemies/slime.gd
