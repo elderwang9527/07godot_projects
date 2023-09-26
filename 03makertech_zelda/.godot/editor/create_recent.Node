@@ -1,4 +1,7 @@
+CanvasLayer
 Sprite2D
+Panel
+HBoxContainer
 AnimationPlayer
 CollisionShape2D
 Area2D

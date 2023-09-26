@@ -236,7 +236,6 @@ script = ExtResource("1_ipjf4")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -5)
 rotation = 1.5708
-scale = Vector2(0.1, 0.1)
 shape = SubResource("CapsuleShape2D_261p0")
 
 [node name="sprite" type="Sprite2D" parent="."]
