@@ -1,5 +1,9 @@
 extends CharacterBody2D
 
+class_name Player
+
+signal healthChanged
+
 @export var speed: int = 95
 @onready var animations = $AnimationPlayer
 @onready var hurtColor = $Sprite2D/ColorRect
@@ -42,4 +46,4 @@ func _on_hurt_box_area_entered(area):
 		if currentHealth < 0:
 			currentHealth = maxHealth
 			
-		print_debug(currentHealth)
+		healthChanged.emit(currentHealth)

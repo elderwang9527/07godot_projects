@@ -6,3 +6,6 @@ res://enemies/slime.tscn
 res://enemies/slime.gd
 res://gui/heartsContainer.tscn
 res://gui/heartGui.tscn
+res://gui/heartsContainer.gd
+res://scenes/world.gd
+res://gui/heartGui.gd
