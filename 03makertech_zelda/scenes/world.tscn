@@ -2623,6 +2623,8 @@ limit_left = 0
 limit_top = 0
 limit_right = 336
 limit_bottom = 208
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
 script = ExtResource("5_lmrtm")
 tilemap = NodePath("../..")
 
