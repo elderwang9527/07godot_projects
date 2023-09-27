@@ -9,3 +9,8 @@ res://gui/heartGui.tscn
 res://gui/heartsContainer.gd
 res://scenes/world.gd
 res://gui/heartGui.gd
+res://collectables/collectable.tscn
+res://collectables/lifepot.tscn
+res://collectables/Collectable.gd
+res://collectables/sword.tscn
+res://collectables/sword.gd

@@ -1,12 +1,12 @@
-Timer
 AnimationPlayer
-ColorRect
-CanvasLayer
 Sprite2D
-Panel
-HBoxContainer
 CollisionShape2D
 Area2D
+Timer
+ColorRect
+CanvasLayer
+Panel
+HBoxContainer
 Marker2D
 AnimatedSprite2D
 AnimatableBody2D
