@@ -14,3 +14,11 @@ res://collectables/lifepot.tscn
 res://collectables/Collectable.gd
 res://collectables/sword.tscn
 res://collectables/sword.gd
+res://gui/inventory_gui.tscn
+res://gui/slot_gui.tscn
+res://gui/inventory_gui.gd
+res://gui/CanvasLayer.gd
+res://inventory/inventoryItem.gd
+res://inventory/inventory.gd
+res://inventory/playerInventory.tres
+res://gui/slot_gui.gd

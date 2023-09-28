@@ -1,5 +1,7 @@
-res://collectables
+res://inventory
+res://inventory/items
 res://gui
+res://collectables
 res://enemies
 res://art
 res://camera

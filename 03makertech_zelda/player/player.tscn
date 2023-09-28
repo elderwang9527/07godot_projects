@@ -1,7 +1,8 @@
-[gd_scene load_steps=14 format=3 uid="uid://cn5lj0bu2by1g"]
+[gd_scene load_steps=15 format=3 uid="uid://cn5lj0bu2by1g"]
 
 [ext_resource type="Texture2D" uid="uid://bwm6vo2am3xm7" path="res://art/player sprites.png" id="1_c3ams"]
 [ext_resource type="Script" path="res://player/player.gd" id="1_g18yx"]
+[ext_resource type="Resource" uid="uid://cmmjpywmuonhd" path="res://inventory/playerInventory.tres" id="2_ivdnj"]
 
 [sub_resource type="Animation" id="Animation_aua35"]
 resource_name = "walkDown"
@@ -148,6 +149,7 @@ _data = {
 [node name="Player" type="CharacterBody2D"]
 texture_filter = 1
 script = ExtResource("1_g18yx")
+inventory = ExtResource("2_ivdnj")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 clip_children = 2

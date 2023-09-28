@@ -1,11 +1,15 @@
-AnimationPlayer
+Panel
+CenterContainer
 Sprite2D
+GridContainer
+NinePatchRect
+Control
+AnimationPlayer
 CollisionShape2D
 Area2D
 Timer
 ColorRect
 CanvasLayer
-Panel
 HBoxContainer
 Marker2D
 AnimatedSprite2D
