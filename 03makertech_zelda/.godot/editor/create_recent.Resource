@@ -1,2 +1,3 @@
-Inventory
 InventoryItem
+Resource
+Inventory

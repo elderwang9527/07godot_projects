@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695795320
+::res://::1695914227
 icon.svg::CompressedTexture2D::3627576920572011025::1695372646::1695372652::1::::<><>::
-::res://art/::1695799279
+Bot.gd::GDScript::-1::1695915821::0::1::::<>CharacterBody3D<>::
+::res://art/::1695799298
 animated flowers.png::CompressedTexture2D::1513378428238466272::1695540045::1695540054::1::::<><>::
 Heart.png::CompressedTexture2D::592882741126483649::1695695254::1695695254::1::::<><>::
 InventoryRect.png::CompressedTexture2D::1800564623204418652::1695799254::1695799298::1::::<><>::
@@ -14,23 +15,40 @@ TilesetFloor.png::CompressedTexture2D::4009096051001387312::1695536918::16955369
 TilesetNature.png::CompressedTexture2D::2581529661062787163::1695536918::1695536918::1::::<><>::
 ::res://camera/::1695608136
 follow cam.gd::GDScript::-1::1695608136::0::1::::<>Camera2D<>::
-::res://collectables/::1695797921
+::res://collectables/::1695888340
 Collectable.gd::GDScript::-1::1695795065::0::1::::<>Area2D<>::
 collectable.tscn::PackedScene::860157062531528625::1695795897::0::1::::<><>::res://collectables/Collectable.gd
 lifepot.tscn::PackedScene::532958941521454985::1695794688::0::1::::<><>::uid://miwwqj2yfvpx::::res://collectables/collectable.tscn<>uid://d16iapxhen03j::::res://art/LifePot.png
 sword.gd::GDScript::-1::1695797888::0::1::::<>Area2D<>::
-sword.tscn::PackedScene::5438269742569394215::1695797921::0::1::::<><>::uid://miwwqj2yfvpx::::res://collectables/collectable.tscn<>res://collectables/sword.gd<>uid://cm1ky6lm7d35u::::res://art/Sword.png
+sword.tscn::PackedScene::5438269742569394215::1695888340::0::1::::<><>::uid://miwwqj2yfvpx::::res://collectables/collectable.tscn<>res://collectables/sword.gd<>uid://cm1ky6lm7d35u::::res://art/Sword.png
 ::res://enemies/::1695794688
 slime.gd::GDScript::-1::1695693118::0::1::::<>CharacterBody2D<>::
 slime.tscn::PackedScene::8805879236031948022::1695794688::0::1::::<><>::uid://ppx61rqs7wr3::::res://art/Slime.png<>res://enemies/slime.gd
-::res://gui/::1695794688
+::res://gui/::1695915718
+CanvasLayer.gd::GDScript::-1::1695823604::0::1::::<>CanvasLayer<>::
 heartGui.gd::GDScript::-1::1695707574::0::1::::<>Panel<>::
 heartGui.tscn::PackedScene::5958940552159546348::1695794688::0::1::::<><>::res://gui/heartGui.gd<>uid://ipgxsdjxn5pt::::res://art/Heart.png
 heartsContainer.gd::GDScript::-1::1695707702::0::1::::<>HBoxContainer<>::
 heartsContainer.tscn::PackedScene::3114463048443748032::1695794688::0::1::::<><>::res://gui/heartsContainer.gd
-::res://player/::1695797910
-player.gd::GDScript::-1::1695795131::0::1::::Player<>CharacterBody2D<>::
-player.tscn::PackedScene::5747912941941407058::1695797910::0::1::::<><>::uid://bwm6vo2am3xm7::::res://art/player sprites.png<>res://player/player.gd
-::res://scenes/::1695797910
-world.gd::GDScript::-1::1695708671::0::1::::<>Node2D<>::
-world.tscn::PackedScene::1480343479568356023::1695797910::0::1::::<><>::uid://cn5lj0bu2by1g::::res://player/player.tscn<>res://scenes/world.gd<>uid://bxebhxrq6cbg7::::res://art/TilesetFloor.png<>uid://bc1rofkjq7n1t::::res://art/TilesetNature.png<>uid://vtdeetud83ds::::res://art/animated flowers.png<>res://camera/follow cam.gd<>uid://dxpvsrnsxqgos::::res://enemies/slime.tscn<>uid://cjqlrjndwu0qd::::res://collectables/sword.tscn<>uid://bkmw0sug8aqfg::::res://gui/heartsContainer.tscn<>uid://huf0x26fp6iv::::res://collectables/lifepot.tscn
+inventory_gui.gd::GDScript::-1::1695887796::0::1::::<>Control<>::
+inventory_gui.tscn::PackedScene::7192812759816594345::1695888340::0::1::::<><>::uid://0whbh65ef2ea::::res://art/InventoryRect.png<>res://gui/inventory_gui.gd<>uid://ljq784es60wn::::res://gui/slot_gui.tscn
+slot_gui.gd::GDScript::-1::1695888312::0::1::::<>Panel<>::
+slot_gui.tscn::PackedScene::791687075371040949::1695915718::0::1::::<><>::res://gui/slot_gui.gd<>uid://cqfssukwolntc::::res://art/inventorySlot.png
+::res://inventory/::1695829413
+inventory.gd::GDScript::-1::1695827002::0::1::::Inventory<>Resource<>::
+inventoryItem.gd::GDScript::-1::1695826853::0::1::::InventoryItem<>Resource<>::
+playerInventory.tres::Resource/Inventory::5640454559053397589::1695829413::0::1::::<><>::uid://ce0tow4hgvlel::::res://inventory/items/lifepot.tres<>uid://bew1qlslbj7hj::::res://inventory/items/sword.tres<>res://inventory/inventory.gd
+::res://inventory/items/::1695827203
+lifepot.tres::Resource/InventoryItem::5106386010406992871::1695827132::0::1::::<><>::res://inventory/inventoryItem.gd<>uid://d16iapxhen03j::::res://art/LifePot.png
+sword.tres::Resource/InventoryItem::2714200189413800111::1695827203::0::1::::<><>::res://inventory/inventoryItem.gd<>uid://cm1ky6lm7d35u::::res://art/Sword.png
+::res://player/::1695888340
+player.gd::GDScript::-1::1695829101::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::5747912941941407058::1695888340::0::1::::<><>::uid://bwm6vo2am3xm7::::res://art/player sprites.png<>res://player/player.gd<>uid://cmmjpywmuonhd::::res://inventory/playerInventory.tres
+::res://scenes/::1695888340
+world.gd::GDScript::-1::1695824172::0::1::::<>Node2D<>::
+world.tscn::PackedScene::1480343479568356023::1695888340::0::1::::<><>::uid://cn5lj0bu2by1g::::res://player/player.tscn<>res://scenes/world.gd<>uid://bxebhxrq6cbg7::::res://art/TilesetFloor.png<>uid://bc1rofkjq7n1t::::res://art/TilesetNature.png<>uid://vtdeetud83ds::::res://art/animated flowers.png<>res://camera/follow cam.gd<>uid://dxpvsrnsxqgos::::res://enemies/slime.tscn<>uid://cjqlrjndwu0qd::::res://collectables/sword.tscn<>uid://bkmw0sug8aqfg::::res://gui/heartsContainer.tscn<>res://gui/CanvasLayer.gd<>uid://huf0x26fp6iv::::res://collectables/lifepot.tscn<>uid://daqittappt4rl::::res://gui/inventory_gui.tscn
+::res://test/::1695915718
+bot_stats.tres::Resource::3615125098966107843::1695915718::0::1::::<><>::res://test/bot_stats.gd
+bot_stats2.tres::Resource::7653839768948419481::1695914768::0::1::::<><>::
+bot_stats.gd::GDScript::-1::1695915718::0::1::::<>Resource<>::
+bot.tscn::PackedScene::7919527110442269736::1695915862::0::1::::<><>::res://Bot.gd

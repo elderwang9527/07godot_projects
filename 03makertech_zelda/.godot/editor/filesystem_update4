@@ -22,3 +22,7 @@ res://inventory/inventoryItem.gd
 res://inventory/inventory.gd
 res://inventory/playerInventory.tres
 res://gui/slot_gui.gd
+res://test/bot_stats.tres
+res://test/bot_stats.gd
+res://test/bot.tscn
+res://test/Bot.gd
