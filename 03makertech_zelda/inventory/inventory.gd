@@ -8,12 +8,14 @@ signal updated
 
 ## 23-0539前
 #func insert(item: InventoryItem):
+#	# 循环每个slot，如果循环到的slot的item跟当前捡到的item一样，则数量加1。
 #	for slot in slots:
 #		if slot.item == item:
 #			slot.amount += 1
 #			updated.emit()
 #			return
 #
+#	# 上一步循环完都没有，则重新循环一次，循环到的首个空的slot就存储下当前的item，并把数量记为1。
 #	for i in range(slots.size()):
 #		if !slots[i].item:
 #			slots[i].item = item
