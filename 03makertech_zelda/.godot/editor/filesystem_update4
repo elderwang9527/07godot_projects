@@ -1,12 +1,7 @@
 res://collectables/sword.tscn
 res://inventory/playerInventory.tres
 res://collectables/lifepot.tscn
-res://collectables/Collectable.gd
-res://collectables/sword.gd
-res://player/player.gd
-res://inventory/inventory.gd
-res://gui/inventory_gui.gd
-res://inventory/inventorySlots.gd
-res://gui/slot_gui.gd
 res://gui/slot_gui.tscn
 res://player/player.tscn
+res://player/sword.tscn
+res://scenes/world.tscn
