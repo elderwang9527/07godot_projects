@@ -1,5 +1,5 @@
 extends Node  # Replace 'Node' with the appropriate base class for your script
-
+#
 # Define a function to check nodes on a specific layer
 func checkNodesOnLayer(layer_name):
 	var layer = get_tree().get_root().get_node_or_null(layer_name)
