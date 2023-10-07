@@ -46,19 +46,11 @@ func _physics_process(delta):
 	updateAnimation()
 	
 func _on_hurt_box_area_entered(area):
-	print("111")
-	print(area.name)
 	if area == $hitBox: return
-	print('222')
 	$hitBox.set_deferred("monitorable", false)
-	print('333')
 	isDead = true  
-	print('444')
 	animations.play("death")
-	print('555')
 	await animations.animation_finished
-	print('666')
 	queue_free()
-	print('777')
 	
 	
