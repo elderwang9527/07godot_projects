@@ -9,6 +9,7 @@ extends CharacterBody2D
 
 var startPosition 
 var endPosition
+var isDead: bool = false
 
 func _ready():
 	startPosition = position
@@ -39,11 +40,25 @@ func updateAnimation():
 		animations.play("walk" + direction)
 
 func _physics_process(delta):
+	if isDead: return
 	updateVelocity()
 	move_and_slide()
 	updateAnimation()
 	
-	
-	
+func _on_hurt_box_area_entered(area):
+	print("111")
+	print(area.name)
+	if area == $hitBox: return
+	print('222')
+	$hitBox.set_deferred("monitorable", false)
+	print('333')
+	isDead = true  
+	print('444')
+	animations.play("death")
+	print('555')
+	await animations.animation_finished
+	print('666')
+	queue_free()
+	print('777')
 	
 	

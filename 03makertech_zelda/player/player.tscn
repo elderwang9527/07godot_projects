@@ -1,9 +1,10 @@
-[gd_scene load_steps=20 format=3 uid="uid://cn5lj0bu2by1g"]
+[gd_scene load_steps=21 format=3 uid="uid://cn5lj0bu2by1g"]
 
 [ext_resource type="Texture2D" uid="uid://bwm6vo2am3xm7" path="res://art/player sprites.png" id="1_c3ams"]
 [ext_resource type="Script" path="res://player/player.gd" id="1_g18yx"]
 [ext_resource type="Resource" uid="uid://cmmjpywmuonhd" path="res://inventory/playerInventory.tres" id="2_ivdnj"]
 [ext_resource type="PackedScene" uid="uid://qpip6udepgee" path="res://player/sword.tscn" id="4_56qng"]
+[ext_resource type="Script" path="res://player/weapon.gd" id="4_x5720"]
 
 [sub_resource type="Animation" id="Animation_bo5v1"]
 length = 0.001
@@ -365,7 +366,8 @@ position = Vector2(0, -3)
 shape = SubResource("RectangleShape2D_okkpk")
 
 [node name="hurtBox" type="Area2D" parent="."]
-collision_mask = 3
+collision_layer = 0
+collision_mask = 5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="hurtBox"]
 position = Vector2(0, -8)
@@ -382,6 +384,7 @@ one_shot = true
 [node name="weapon" type="Node2D" parent="."]
 position = Vector2(6, -1)
 rotation = 2.0944
+script = ExtResource("4_x5720")
 
 [node name="sword" parent="weapon" instance=ExtResource("4_56qng")]
 

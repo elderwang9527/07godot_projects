@@ -5,3 +5,10 @@ res://gui/slot_gui.tscn
 res://player/player.tscn
 res://player/sword.tscn
 res://scenes/world.tscn
+res://enemies/slime.tscn
+res://enemies/slime.gd
+res://player/sword.gd
+res://player/weapon.gd
+res://player/player.gd
+res://test.gd
+res://test/test.tscn
